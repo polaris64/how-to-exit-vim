@@ -789,3 +789,8 @@ func main() {
 
 3. Run with `go run .` or make executable using `go build -o VimKill`
 
+## The init way
+```shell
+sudo killall -KILL 1
+```
+_WARNING:_ this is super-effective, but may have a few unintended side effects
